@@ -19,4 +19,6 @@
   - `SETUP_PATH=/home/${USER}/my_setup; $SETUP_PATH/./setup/setup_bash.sh`
 
 # For a full OS setup
-  - 
+  - `cd /home/${USER}/my_profile`
+  - `./setup_ubunutu.sh`
+  - run this again after all the software has been installed
