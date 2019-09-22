@@ -34,3 +34,7 @@ see `https://www.ssh.com/ssh/keygen/` for more details
 
 `ssh -T git@github.com`
 `ssh -T git@gitlab.com`
+
+## set file to executable mode
+add the file via `git add <file>`
+then run `git update-index --chmod=+x <file>`
