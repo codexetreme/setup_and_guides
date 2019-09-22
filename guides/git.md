@@ -28,3 +28,9 @@ ssh-keygen -t ecdsa -b 521
 ssh-keygen -t ed25519
 
 see `https://www.ssh.com/ssh/keygen/` for more details
+
+
+## Test ssh connection 
+
+`ssh -T git@github.com`
+`ssh -T git@gitlab.com`
