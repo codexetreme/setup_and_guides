@@ -8,5 +8,5 @@ if [ -f $RC_FILE ] && grep "my_bashrc.sh #v1.1" $RC_FILE
   then echo "bashrc all good."
   else
     set -x
-    echo "source $PARENT_DIR/shell/bash/my_bashrc.sh #v1.1" >> $RC_FILE
+    echo "source $PARENT_DIR/bash/my_bashrc.sh #v1.1" >> $RC_FILE
 fi

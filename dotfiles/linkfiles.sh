@@ -17,4 +17,4 @@ function linkfile() {
 }
 
 #linkfile custom-apps-menu/applications-override.json  ~/.local/share/cinnamon/applets/custom-apps-menu@sahil87/applications-override.json                        0
-linkfile dotfiles/git/.gitconfig             ~/.gitconfig                            0
+linkfile git/.gitconfig             ~/.gitconfig                            0

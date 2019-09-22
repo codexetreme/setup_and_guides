@@ -100,3 +100,11 @@ source $ZSH/oh-my-zsh.sh
 alias e="exit"
 alias c="clear"
 
+
+export PATH=/home/${USER}/bin:$PATH
+
+
+
+
+
+
