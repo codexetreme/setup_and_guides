@@ -10,8 +10,13 @@
 - (if the shell is not changed automatically, run ) `sudo chsh -s /usr/bin/zsh`
 
 - clone the dotfile repo
-  - `git clone `
+  - `git clone https://github.com/codexetreme/setup_and_guides.git /home/${USER}/my_setup`
 
+- Shell Setup
+  - ZSH
+  - `SETUP_PATH=/home/${USER}/my_setup; $SETUP_PATH/./setup/setup_zsh.sh`
+  - BASH
+  - `SETUP_PATH=/home/${USER}/my_setup; $SETUP_PATH/./setup/setup_bash.sh`
 
-
-
+# For a full OS setup
+  - 
