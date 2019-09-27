@@ -2,7 +2,7 @@
 
 #Important tools:
 #Install chrome, vscode, vivaldi
-sudo apt install -y vim zsh zsh-doc git guake #gitk tig   #emacs24-nox xcalib byobu
+sudo apt install -y vim zsh zsh-doc git guake meld #gitk tig   #emacs24-nox xcalib byobu
 sudo apt install -y curl wget nmap whois openssh-server gparted #luckybackup
 sudo apt install -y autoconf automake libtool cmake
 
