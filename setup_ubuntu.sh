@@ -5,6 +5,8 @@
 sudo apt install -y vim zsh zsh-doc git guake meld #gitk tig   #emacs24-nox xcalib byobu
 sudo apt install -y curl wget nmap whois openssh-server gparted #luckybackup
 sudo apt install -y autoconf automake libtool cmake
+sudo apt install -y snapd # for snap package installer
+
 
 
 #Link files
