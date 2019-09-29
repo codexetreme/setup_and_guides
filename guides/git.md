@@ -35,6 +35,12 @@ see `https://www.ssh.com/ssh/keygen/` for more details
 `ssh -T git@github.com`
 `ssh -T git@gitlab.com`
 
+sometimes keys may not be added to ssh agent, if so then do
+
+`eval "$(ssh-agent -s)" `
+`ssh-add ~/.ssh/<keyname>` (just the keyname, not <keyname>.pub)
+
+
 ## set file to executable mode
 add the file via `git add <file>`
 then run `git update-index --chmod=+x <file>`
