@@ -35,7 +35,7 @@ see `https://www.ssh.com/ssh/keygen/` for more details
 `ssh -T git@github.com`
 `ssh -T git@gitlab.com`
 
-sometimes keys may not be added to ssh agent, if so then do
+sometimes keys may not be added to ssh agent (your push will fail saying no access rights to repo), if so then do
 
 `eval "$(ssh-agent -s)" `
 `ssh-add ~/.ssh/<keyname>` (just the keyname, not <keyname>.pub)
