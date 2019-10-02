@@ -85,3 +85,4 @@ export PROFILEDIR=/home/${USER}/my_setup
 export SOURCEDIR=/home/${USER}/src
 
 alias dotf="cd ${PROFILEDIR}"
+alias src_="cd ${SOURCEDIR}"
