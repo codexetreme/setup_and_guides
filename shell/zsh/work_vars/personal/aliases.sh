@@ -55,4 +55,6 @@ alias mpush="exec mpush"
 function mpush() {
     git --git-dir $MISSIONCONTROL/.git/ --work-tree $MISSIONCONTROL/ add -A
     git --git-dir $MISSIONCONTROL/.git/ --work-tree $MISSIONCONTROL commit -m 'updating'
+    git --git-dir $MISSIONCONTROL/.git/ --work-tree $MISSIONCONTROL push
+
 }
