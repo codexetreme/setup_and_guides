@@ -49,12 +49,6 @@ export SCRIPTDIR=$MISSIONCONTROL/scripts
 alias msc="cd ${MISSIONCONTROL}"
 alias src_="cd ${SOURCEDIR}"
 
-alias mpush="exec mpush"
+GITOPTIONS="--git-dir $MISSIONCONTROL/.git/ --work-tree $MISSIONCONTROL/"
+alias mpush="git $GITOPTIONS add -A; git $GITOPTIONS commit -m 'updating'; git $GITOPTIONS push;"
 
-
-function mpush() {
-    git --git-dir $MISSIONCONTROL/.git/ --work-tree $MISSIONCONTROL/ add -A
-    git --git-dir $MISSIONCONTROL/.git/ --work-tree $MISSIONCONTROL commit -m 'updating'
-    git --git-dir $MISSIONCONTROL/.git/ --work-tree $MISSIONCONTROL push
-
-}
