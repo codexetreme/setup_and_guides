@@ -53,3 +53,5 @@ GITOPTIONS="--git-dir $MISSIONCONTROL/.git/ --work-tree $MISSIONCONTROL/"
 alias mpush="git $GITOPTIONS add -A; git $GITOPTIONS commit -m 'updating'; git $GITOPTIONS push;"
 alias mgs="git $GITOPTIONS status"
 
+# project vars
+export DOCKER_NETWORK_NAME="codexetreme_dev"
