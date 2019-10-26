@@ -51,4 +51,5 @@ alias src_="cd ${SOURCEDIR}"
 
 GITOPTIONS="--git-dir $MISSIONCONTROL/.git/ --work-tree $MISSIONCONTROL/"
 alias mpush="git $GITOPTIONS add -A; git $GITOPTIONS commit -m 'updating'; git $GITOPTIONS push;"
+alias mgs="git $GITOPTIONS status"
 
