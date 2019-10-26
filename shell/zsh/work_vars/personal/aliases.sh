@@ -21,6 +21,7 @@ alias gb='git branch '
 alias gbv='git branch -vv'
 alias gc='git commit'
 alias gcm='git commit -m'
+alias gcmS='git commit -S -m'
 alias gd='git diff'
 alias gco='git checkout '
 alias gl='git log --all --graph --decorate --oneline'
@@ -32,3 +33,26 @@ alias gr='git remote'
 
 alias d='docker'
 alias kc='kubectl'
+
+alias e="exit"
+alias c="clear"
+
+
+
+# env vars
+export PATH=/home/${USER}/bin:$PATH
+export MISSIONCONTROL=/home/${USER}/my_setup
+export SOURCEDIR=/home/${USER}/src
+export SCRIPTDIR=$MISSIONCONTROL/scripts
+
+
+alias msc="cd ${MISSIONCONTROL}"
+alias src_="cd ${SOURCEDIR}"
+
+alias mpush="exec mpush"
+
+
+function mpush() {
+    git --git-dir $MISSIONCONTROL/.git/ --work-tree $MISSIONCONTROL/ add -A
+    git --git-dir $MISSIONCONTROL/.git/ --work-tree $MISSIONCONTROL commit -m 'updating'
+}

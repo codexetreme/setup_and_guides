@@ -71,18 +71,3 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(git docker)
 
 source $ZSH/oh-my-zsh.sh
-
-alias e="exit"
-alias c="clear"
-
-
-export PATH=/home/${USER}/bin:$PATH
-
-
-# env vars
-
-export PROFILEDIR=/home/${USER}/my_setup
-export SOURCEDIR=/home/${USER}/src
-
-alias dotf="cd ${PROFILEDIR}"
-alias src_="cd ${SOURCEDIR}"
