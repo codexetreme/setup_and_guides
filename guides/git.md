@@ -69,3 +69,6 @@ public key
 
 private key
 `gpg --export-secret-key --armor <keyid>`
+
+
+MORE INFO [http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/](http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/)
