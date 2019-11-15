@@ -3,7 +3,7 @@ BASE_PATH=/home/${USER}/code/gmetrivr
 
 source $BASE_PATH/dec/shell/mybash_rc.sh
 source $BASE_PATH/dec/shell/mybash_vars.sh
-
+source $BASE_PATH/dec/kubeconfig/env.sh
 
 alias gm='cd $BASE_PATH/'
 alias tw='cd $BASE_PATH/teaxrweb'
@@ -21,3 +21,4 @@ alias cspg='cd $BASE_PATH/cs-pages'
 alias ghosttx='cd $BASE_PATH/ghost-teaxr'
 alias ghostgm='cd $BASE_PATH/ghost-gmetri'
 alias ghostst='cd $BASE_PATH/ghost-stsm'
+alias kcuc='kc config use-context'
