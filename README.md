@@ -14,7 +14,7 @@
 
 - Shell Setup
   - ZSH
-  - `SETUP_PATH=/home/${USER}/my_setup; $SETUP_PATH/./setup/setup_zsh.sh`
+  - `SETUP_PATH=/home/${USER}/my_setup; $SETUP_PATH/./shell/setup/setup_zsh.sh`
   - BASH
   - `SETUP_PATH=/home/${USER}/my_setup; $SETUP_PATH/./setup/setup_bash.sh`
 
