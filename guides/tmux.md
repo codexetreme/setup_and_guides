@@ -7,7 +7,38 @@
 
 
 
-tmux shortcuts
+# tmux shortcuts
+
+`<PREFIX>` => `Ctrl + a`
+
+tmux list sessions 
+ 
+`tmux ls`
+
+
+attach session (from the list displayed by the above command)
+
+`tmux attach-session -t <session-name>`
+
+detach from current session
+
+`<PREFIX> d`
+
+
+create new window
+
+`<PREFIX> c`
+
+rename current window
+
+`<PREFIX> ,`
+
+
+goto cmd line
+
+`<PREFIX> :`
+
+
 
 
 
