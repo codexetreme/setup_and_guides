@@ -1,4 +1,4 @@
-BASE_PATH=/home/${USER}/code/gmetrivr
+BASE_PATH=/home/${USER}/remote-code
 
 
 source $BASE_PATH/dec/shell/mybash_rc.sh
