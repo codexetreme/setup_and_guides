@@ -23,3 +23,5 @@ alias ghostgm='cd $BASE_PATH/ghost-gmetri'
 alias ghostst='cd $BASE_PATH/ghost-stsm'
 alias kcuc='kc config use-context'
 alias z="sudo mount -t cifs -o username=gmetri,password=gmetri,uid=1000,gid=1000 //dropbox.lan/share /home/codexetreme/Desktop/z"
+
+export JWT_SECRET="wootyoloyolowoot98720987ufaflkj()*&)()*^)"

@@ -3,6 +3,7 @@
 [core]
     pager=less -x4
 	autocrlf = input
+    editor = vim
 
 #}}}
 # credential {{{

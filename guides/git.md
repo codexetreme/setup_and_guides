@@ -72,3 +72,28 @@ private key
 
 
 MORE INFO [http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/](http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/)
+
+
+
+# squashing commits 
+
+When submitting a pull request, and they ask that you squash your commits before they merge.
+
+Some applications that interact with git repos will provide a user interface for squashing. Refer to your application's document for more information.
+
+If you're familiar with Terminal, you can do the following:
+
+- Make sure your branch is up to date with the master branch.
+Run `git rebase -i master`.
+
+- You should see a list of commits, each commit starting with the word "pick".
+Make sure the first commit says "pick" and change the rest from "pick" to "squash". -- This will squash each commit into the previous commit, which will continue until every commit is squashed into the first commit.
+
+- Save and close the editor.
+
+- It will give you the opportunity to change the commit message.
+Save and close the editor again.
+
+- Then you have to force push the final, squashed commit: `git push --force-with-lease origin`.
+
+- Squashing commits can be a tricky process but once you figure it out, it's really helpful and keeps our repo concise and clean.
