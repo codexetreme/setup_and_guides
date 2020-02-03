@@ -70,4 +70,7 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git docker)
 
+
+alias hurlp='pbpaste | jq ".log.entries" | tee >(jq --raw-output "[.[] | .request.url] | sort | unique | .[]")'
+
 source $ZSH/oh-my-zsh.sh
