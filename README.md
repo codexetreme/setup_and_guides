@@ -20,5 +20,5 @@
 
 # For a full OS setup
   - `cd /home/${USER}/my_profile`
-  - `./setup_ubunutu.sh`
+  - `./setup_ubuntu.sh`
   - run this again after all the software has been installed
