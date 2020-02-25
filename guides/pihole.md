@@ -9,6 +9,11 @@ to use my setup please use this is repo
 
 https://gitlab.com/codexetreme/pihole_server
 
+
+to clone it do 
+
+git clone https://gitlab.com/codexetreme/pihole_server pihole
+
 # installation hiccups
 
 On ubuntu the pesky systemd will cause issues, so from the docs of pihole
