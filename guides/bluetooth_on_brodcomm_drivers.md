@@ -31,3 +31,4 @@ copy this file to `/lib/firmware/brcm/BCD.hcd`
 
 Reboot and you should be done.
 
+more info on `https://dev-pages.info/ubuntu-bluetooth/`
