@@ -40,9 +40,9 @@ alias c="clear"
 
 
 # env vars
-export PATH=/home/${USER}/bin:$PATH
-export MISSIONCONTROL=/home/${USER}/my_setup
-export SOURCEDIR=/home/${USER}/src
+export PATH=${HOME}/bin:$PATH
+export MISSIONCONTROL=${HOME}/my_setup
+export SOURCEDIR=${HOME}/src
 export SCRIPTDIR=$MISSIONCONTROL/scripts
 
 
