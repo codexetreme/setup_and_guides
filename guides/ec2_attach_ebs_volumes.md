@@ -1,3 +1,6 @@
+# link for reference 
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
+
 # Attach a volume to an EC2 Instance
 
 SSH into the EC2 instance
