@@ -40,11 +40,10 @@ alias c="clear"
 
 
 # env vars
-export PATH=${HOME}/bin:$PATH
 export MISSIONCONTROL=${HOME}/my_setup
 export SOURCEDIR=${HOME}/src
 export SCRIPTDIR=$MISSIONCONTROL/scripts
-
+export PATH=${HOME}/bin:${SCRIPTDIR}/bin:$PATH
 
 alias msc="cd ${MISSIONCONTROL}"
 alias src_="cd ${SOURCEDIR}"
