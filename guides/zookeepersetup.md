@@ -7,8 +7,6 @@ sudo usermod --shell /bin/bash zk
 # set a password for this user
 sudo passwd zk 
 
-# e21KwYa4 (password for zk)
-
 # add zk to sudo group
 
 sudo usermod -aG sudo zk
