@@ -52,3 +52,17 @@ Run
 > To install a different version of Compose, substitute `1.24.1` with the version of Compose you want to use.
 
 - `sudo chmod +x /usr/local/bin/docker-compose`
+
+
+# installing docker on AWS
+
+to install on linux AMI 2 instances please do this
+https://stackoverflow.com/questions/60690568/unable-to-install-docker-on-aws-linux-ami
+if already accidentally installed docker from the instructions on the docker site
+
+this is the correct way to do it  
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
+
+## installing docker compose on AWS
+
+same as that of normal install process
