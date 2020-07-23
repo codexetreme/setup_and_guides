@@ -19,10 +19,10 @@ function linkfile() {
     fi
 }
 
-#linkfile custom-apps-menu/applications-override.json  ~/.local/share/cinnamon/applets/custom-apps-menu@sahil87/applications-override.json                        0
 linkfile dotfiles/git/gitconfig             ~/.gitconfig                            0
 linkfile dotfiles/i3/i3Config               ~/.config/i3/config                     0
 linkfile dotfiles/imwheel/imwheelrc.sh      ~/.imwheelrc                            0
 linkfile dotfiles/tmux/tmux.conf            ~/.tmux.conf                            0
+linkfile dotfiles/ssh/config                ~/.ssh/config                           0
 
 sudo cp $DIR/dotfiles/i3/touchpad /etc/X11/xorg.conf.d/90-touchpad.conf
