@@ -52,3 +52,28 @@ Run
 > To install a different version of Compose, substitute `1.24.1` with the version of Compose you want to use.
 
 - `sudo chmod +x /usr/local/bin/docker-compose`
+
+
+
+# Raspberry Pi Install
+
+
+## Docker
+
+`sudo apt install docker.io` 
+not the most updated, but pretty updated, since for a PI, its arm and currently its a bit flimsy in support, so use the ubuntu repos first
+
+## Docker compose 
+
+```
+sudo apt-get install -y libffi-dev libssl-dev
+sudo apt-get install -y python3 python3-pip
+sudo apt-get remove python-configparser
+
+sudo pip3 install docker-compose
+```
+
+this is taken from here https://dev.to/rohansawant/installing-docker-and-docker-compose-on-the-raspberry-pi-in-5-simple-steps-3mgl
+
+
+we have to do it this way, cause the official docs only list a download from the ubuntu repos via automated plugging of arch and os names via command like uname -s and uname -m, which on a PI give a combination that does not exist for docker-compose, so we need to go old school to install it.
