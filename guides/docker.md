@@ -77,3 +77,16 @@ this is taken from here https://dev.to/rohansawant/installing-docker-and-docker-
 
 
 we have to do it this way, cause the official docs only list a download from the ubuntu repos via automated plugging of arch and os names via command like uname -s and uname -m, which on a PI give a combination that does not exist for docker-compose, so we need to go old school to install it.
+
+# installing docker on AWS
+
+to install on linux AMI 2 instances please do this
+https://stackoverflow.com/questions/60690568/unable-to-install-docker-on-aws-linux-ami
+if already accidentally installed docker from the instructions on the docker site
+
+this is the correct way to do it  
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
+
+## installing docker compose on AWS
+
+same as that of normal install process
