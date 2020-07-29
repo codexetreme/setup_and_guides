@@ -54,3 +54,6 @@ alias mgs="git $GITOPTIONS status"
 
 # project vars
 export DOCKER_NETWORK_NAME="codexetreme_dev"
+
+#only used for homebrew on macOS
+export PATH=/usr/local/opt/inetutils/libexec/gnubin:$PATH
