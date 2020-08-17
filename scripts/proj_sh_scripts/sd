@@ -1,2 +1,2 @@
 #!/bin/sh
-./fab/sh/compose_up.sh $@
+./fab/sh/servies.sh up

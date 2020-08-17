@@ -1,2 +1,2 @@
 #!/bin/sh
-./fab/sh/compose_down.sh
+./fab/sh/services.sh down
