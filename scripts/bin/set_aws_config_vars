@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+from configparser import ConfigParser
+import os
+
+aws_credentials_location = os.path.expandvars("${HOME}/.aws/credentials.ini")
+
+aws_profile = "default"
+
+config = ConfigParser()
+config.read(aws_credentials_location)
+
+aws_access_key_id = config.get(aws_profile,'aws_access_key_id')
+aws_secret_access_key = config.get(aws_profile,'aws_secret_access_key')
+
+
+print('AWS_ACCESS_KEY_ID=%s' % aws_access_key_id)
+print('AWS_SECRET_ACCESS_KEY=%s' % aws_secret_access_key)
+
