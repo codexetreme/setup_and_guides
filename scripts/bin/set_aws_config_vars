@@ -2,7 +2,7 @@
 from configparser import ConfigParser
 import os
 
-aws_credentials_location = os.path.expandvars("${HOME}/.aws/credentials.ini")
+aws_credentials_location = os.path.expandvars("${HOME}/.aws/credentials")
 
 aws_profile = "default"
 
