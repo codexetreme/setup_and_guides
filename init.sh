@@ -1,3 +1,7 @@
+
+docker stop code-server
+docker rm code-server
+
 docker create \
   --name=code-server \
   -e PUID=1000 \
