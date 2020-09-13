@@ -18,7 +18,5 @@
   - BASH
   - `SETUP_PATH=/home/${USER}/my_setup; $SETUP_PATH/./setup/setup_bash.sh`
 
-# For a full OS setup
-  - `cd /home/${USER}/my_profile`
-  - `./setup_ubuntu.sh`
-  - run this again after all the software has been installed
+# init code-server
+curl https://raw.githubusercontent.com/codexetreme/setup_and_guides/master/init.sh | bash

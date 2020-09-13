@@ -7,6 +7,7 @@ docker create \
   -e SUDO_PASSWORD=password `#optional` \
   -p 8443:8443 \
   -v $HOME/vscode_data:/config \
+  -v $HOME/main: /main \
   --restart unless-stopped \
   linuxserver/code-server
 
