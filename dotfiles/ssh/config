@@ -4,6 +4,17 @@ Host bitbucket.org
     User git
     IdentityFile /Users/codexetreme/.ssh/iplMain
 
+Host gitlab.com
+    User git
+    IdentityFile /Users/codexetreme/.ssh/gitlabPersonalKey
+
+Host github.com
+    User git
+    IdentityFile /Users/codexetreme/.ssh/githubPersonalKey
+
+#############################################################################
+
+
 Host antibioticsfairy.com
     Port 2222
 
@@ -12,11 +23,41 @@ Host server.lan antibioticsfairy.com
     User codexetreme
     IdentityFile /Users/codexetreme/.ssh/localServer
 
-
-Host 10.0.6.10 10.0.9.119 10.0.10.101 
+# redash-visualization-service
+Host 10.0.3.220
     User ubuntu
     IdentityFile /Users/codexetreme/.ssh/ipllogistics-test-kafka-client-key.pem
 
-Host 10.0.6.186 10.0.2.205
+# runs kafka dockers
+Host 10.0.6.10 
+    User ubuntu
+    IdentityFile /Users/codexetreme/.ssh/ipllogistics-test-kafka-client-key.pem
+
+# dev-instance-2 run the visualization-api
+Host 10.0.6.186
     User ec2-user
     IdentityFile /Users/codexetreme/.ssh/ipllogistics-test-kafka-client-key.pem
+
+# prod-ftp-server
+Host 10.0.2.70
+    User ec2-user
+    IdentityFile /Users/codexetreme/.ssh/ipllogistics-test-kafka-client-key.pem
+
+
+# dev instances
+
+
+Host 10.0.2.70
+    User ec2-user
+    IdentityFile /Users/codexetreme/.ssh/ipllogistics-test-kafka-client-key.pem
+
+Host 10.0.8.48 10.0.9.99 10.0.9.167
+    User ec2-user
+    IdentityFile /Users/codexetreme/.ssh/ipllogistics-test-kafka-client-key.pem
+
+
+#########################################################################################
+
+Host 192.168.0.20
+    User ubuntu
+    IdentityFile /Users/codexetreme/.ssh/localServer

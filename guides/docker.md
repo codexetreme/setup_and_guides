@@ -90,3 +90,9 @@ https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
 ## installing docker compose on AWS
 
 same as that of normal install process
+
+# connect to ecr on vscode
+
+enter url `https://<aws_account_id>.dkr.ecr.<region>.amazonaws.com`
+run `aws ecr get-login-password`
+login with username `AWS` and the password from the above command
