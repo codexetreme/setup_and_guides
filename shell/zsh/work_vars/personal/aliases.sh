@@ -57,3 +57,5 @@ export DOCKER_NETWORK_NAME="codexetreme_dev"
 
 #only used for homebrew on macOS
 export PATH=/usr/local/opt/inetutils/libexec/gnubin:$PATH
+
+export KUBECONFIG="$HOME/.kube/eks:$HOME/.kube/kubeconfig_test_connectnow_k8s:$HOME/.kube/eks-prod"

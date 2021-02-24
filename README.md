@@ -20,3 +20,8 @@
 
 # init code-server
 curl https://raw.githubusercontent.com/codexetreme/setup_and_guides/master/init.sh | bash
+
+
+# on AL2
+
+run `sudo yum install util-linux-user` to get chsh to change shell

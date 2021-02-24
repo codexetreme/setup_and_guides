@@ -4,7 +4,7 @@ import os
 
 aws_credentials_location = os.path.expandvars("${HOME}/.aws/credentials")
 
-aws_profile = "default"
+aws_profile = "connectnow-admin"
 
 config = ConfigParser()
 config.read(aws_credentials_location)

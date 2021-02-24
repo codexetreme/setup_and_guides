@@ -46,14 +46,15 @@ Host 10.0.2.70
 
 # dev instances
 
-
-Host 10.0.2.70
+Host 10.0.8.48 
     User ec2-user
     IdentityFile /Users/codexetreme/.ssh/ipllogistics-test-kafka-client-key.pem
 
-Host 10.0.8.48 10.0.9.99 10.0.9.167
+Host 65.0.74.231
     User ec2-user
     IdentityFile /Users/codexetreme/.ssh/ipllogistics-test-kafka-client-key.pem
+
+
 
 
 #########################################################################################

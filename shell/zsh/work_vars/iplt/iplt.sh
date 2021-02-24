@@ -4,4 +4,4 @@ BASE_PATH=${HOME}/Documents/IPL
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home
 
-export PATH="$PATH:$HOME/Documents/istio/istio-1.7.2/bin"
+export PATH="$PATH:$HOME/Documents/istio/istio-1.8.2/bin"
