@@ -6,4 +6,4 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Content
 
 export PATH="$PATH:$HOME/Documents/istio/istio-1.8.2/bin"
 
-alias kc_iplt="KUBECONFIG=$HOME/Documents/IPL/src/etruck_k8s_deploy/config/kubeconfig kc"
+alias kc_iplt="kubectl --kubeconfig $HOME/Documents/IPL/src/etruck_k8s_deploy/config/kubeconfig"
