@@ -1,0 +1,20 @@
+Host *
+  ServerAliveInterval 30
+  ServerAliveCountMax 60
+  #Compression yes #Commented to avoid double compression when forwarding tar archives through pipes
+
+Host iplt-ftp
+   HostName 10.0.2.70
+   User ec2-user
+   IdentityFile /home/codexetreme/.ssh/ipllogistics-test-kafka-client-key.pem
+
+Host iplt-testing-vm   
+   HostName 10.0.6.10
+   User ubuntu
+   IdentityFile /home/codexetreme/.ssh/ipllogistics-test-kafka-client-key.pem
+
+
+
+Host bitbucket.org
+   User git
+   IdentityFile /home/codexetreme/.ssh/iplMain

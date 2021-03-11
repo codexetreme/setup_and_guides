@@ -1,4 +1,8 @@
-#IdentityFile /Users/codexetreme/.ssh/iplMain
+Host *
+  ServerAliveInterval 30
+  ServerAliveCountMax 60
+  #Compression yes #Commented to avoid double compression when forwarding tar archives through pipes
+  
 
 Host bitbucket.org
     User git
