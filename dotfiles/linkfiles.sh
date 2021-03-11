@@ -24,6 +24,10 @@ function linkfile() {
     fi
 }
 
+
+# WARNING: due to certain path based bugs, please run this from the root directory
+# ie from ./dotfiles/linkfiles.sh
+
 linkfile dotfiles/git/gitconfig             ~/.gitconfig                            0
 linkfile dotfiles/tmux/tmux.conf            ~/.tmux.conf                            0
 
