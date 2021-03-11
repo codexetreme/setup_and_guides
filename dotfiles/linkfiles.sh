@@ -29,7 +29,6 @@ function linkfile() {
 # ie from ./dotfiles/linkfiles.sh
 
 linkfile dotfiles/git/gitconfig             ~/.gitconfig                            0
-linkfile dotfiles/tmux/tmux.conf            ~/.tmux.conf                            0
 
 
 case `uname` in
@@ -39,7 +38,8 @@ case `uname` in
   ;;
   Linux)
     # commands for Linux go here
-    linkfile dotfiles/ssh/config_linux                ~/.ssh/config                           0
+    linkfile dotfiles/ssh/config_linux          ~/.ssh/config                           0
+    linkfile dotfiles/tmux/tmux.conf            ~/.tmux.conf                            0
   ;;
   FreeBSD)
     # commands for FreeBSD go here
