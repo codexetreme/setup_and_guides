@@ -48,6 +48,11 @@ Host 10.0.2.70
     IdentityFile /Users/codexetreme/.ssh/ipllogistics-test-kafka-client-key.pem
 
 
+Host 10.0.3.220
+    User ubuntu
+    IdentityFile /Users/codexetreme/.ssh/ipllogistics-test-kafka-client-key.pem
+
+
 # dev instances
 
 Host 10.0.8.48 
